@@ -27,3 +27,17 @@ Download or copy the project folder.
 Open login.html in any web browser.
 To register a new account, click "Create Account" (or "Signup") shown on login page.
 After signup, you can return to the login page using the link provided.
+
+## Task 3 : Dashboard UI
+This project is a simple Dashboard UI created using HTML and CSS.
+## Features
+- Feature cards section
+- User records table
+- Responsive layout
+- Hover effects
+## Technologies Used
+- HTML
+- CSS
+## How to Run
+Open table.html in any web browser.
+

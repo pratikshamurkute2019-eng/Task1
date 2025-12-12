@@ -41,3 +41,21 @@ This project is a simple Dashboard UI created using HTML and CSS.
 ## How to Run
 Open table.html in any web browser.
 
+## Task 4 : Student Registration 
+This project is a *multi-step student admission form* built using *pure HTML and CSS*.  
+It is designed to make the user experience smooth and structured, avoiding long overwhelming forms.
+## Goal
+Create 4 form pages + 1 preview page containing the following sections:
+1. Personal Details
+2. Guardian Details
+3. Address Details
+4. Education & Course Details
+5. Preview Page - Shows all entered details before final submission.
+## Features
+- Clean, minimal, and user-friendly UI
+- Multi-step form wizard layout
+- Responsive layout for different screen sizes
+- Navigation buttons for *Next* and *Previous*
+- Preview page to review all inputs
+- Styled using only HTML and CSS (no JavaScript or backend)
+

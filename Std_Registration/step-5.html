@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Admission - Step 5 Preview</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            background: #fff;
+            margin: 40px auto;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .box {
+            padding: 5px;
+            background: #f8fafc;
+            border-left: 4px solid #0077cc;
+            margin-top: 18px;
+            border-radius: 8px;
+        }
+
+        .box h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        /* BUTTONS ROW */
+        .button-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 25px;
+        }
+
+        /* Previous button */
+        .previous-link {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .previous-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Submit button */
+        .submit-btn {
+            background: #0077cc;
+            padding: 12px 25px;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            border: none;
+            text-align: center;
+        }
+
+        .submit-btn:hover {
+            background: #005fa3;
+        }
+
+        /* Success message */
+        #done:checked ~ .success-message {
+            display: block;
+        }
+
+        .success-message {
+            display: none;
+            margin-top: 25px;
+            padding: 18px;
+            background: #e8ffe8;
+            border: 1px solid #36aa36;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #1b5e20;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Preview Your Details</h2>
+
+        <!-- Summary Boxes -->
+        <div class="box">
+            <h3>Personal Information</h3>
+            
+        </div>
+
+        <div class="box">
+            <h3>Guardian Details</h3>
+            
+        </div>
+
+        <div class="box">
+            <h3>Address Information</h3>
+            
+        </div>
+
+        <div class="box">
+            <h3>Education Background</h3>
+            
+        </div>
+
+        <div class="box">
+            <h3>Course Details</h3>
+            
+        </div>
+
+        <!-- Hidden checkbox -->
+        <input type="checkbox" id="done" style="display:none;">
+
+        <!-- BUTTON ROW -->
+        <div class="button-row">
+            <!-- Previous at left -->
+            <a href="step-4.html" class="previous-link">← Previous</a>
+
+            <!-- Submit in center -->
+            <label for="done" class="submit-btn">Submit</label>
+
+            <!-- Invisible space to balance layout -->
+            <div style="width:70px;"></div>
+        </div>
+
+        <!-- Success message -->
+        <div class="success-message">
+            ✔ Your form is completed! Thank you for submitting.
+        </div>
+
+    </div>
+
+</body>
+</html>

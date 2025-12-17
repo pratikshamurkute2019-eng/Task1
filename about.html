@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Us</title>
+
+<style>
+/* ===== COLOR SYSTEM ===== */
+:root{
+    --primary:#4f46e5;
+    --secondary:#06b6d4;
+    --accent:#f59e0b;
+    --dark:#111827;
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
+}
+
+/* ===== RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    background:linear-gradient(180deg,#eef2ff,#f8fafc);
+    display:flex;
+    flex-direction:column;
+    color:var(--text);
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header{
+    background:rgba(255,255,255,0.85);
+    backdrop-filter: blur(10px);
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+    padding:16px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:24px;
+    font-weight:500;
+    color:var(--text);
+}
+
+nav a:hover{
+    color:var(--primary);
+}
+
+/* ===== MAIN LAYOUT ===== */
+main{
+    flex:1;
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+    display:grid;
+    grid-template-columns:2fr 1.3fr;
+    gap:30px;
+}
+
+/* ===== CARD STYLE ===== */
+section{
+    background:var(--card);
+    padding:24px;
+    border-radius:18px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+    position:relative;
+}
+
+section::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    height:6px;
+    width:100%;
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+    border-radius:18px 18px 0 0;
+}
+
+h2{
+    margin-bottom:10px;
+    color:var(--primary);
+}
+
+p{
+    color:var(--muted);
+    line-height:1.6;
+}
+
+/* ===== SERVICES ===== */
+.services{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    margin-top:14px;
+}
+
+.service{
+    padding:14px;
+    border-radius:14px;
+    background:linear-gradient(135deg,#eef2ff,#ecfeff);
+    font-weight:500;
+    box-shadow:inset 0 0 0 1px #e5e7eb;
+}
+
+/* ===== WHY CHOOSE US ===== */
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:10px;
+}
+
+.badge{
+    padding:8px 14px;
+    border-radius:20px;
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    color:white;
+    font-size:13px;
+}
+
+/* ===== RIGHT COLUMN ===== */
+.right{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+/* ===== MISSION & VISION (FIXED VISIBILITY) ===== */
+.highlight{
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    padding: 26px;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.highlight h2{
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.highlight p{
+    color: #f1f5f9;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.highlight strong{
+    color: #ffffff;
+}
+
+/* ===== MAP ===== */
+iframe{
+    width:100%;
+    height:200px;
+    border:none;
+    border-radius:14px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background:linear-gradient(90deg,var(--dark),#020617);
+    color:#cbd5e1;
+    text-align:center;
+    padding:14px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <nav>
+        <div class="logo">Vision Institute</div>
+        <div>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+
+    <!-- LEFT COLUMN -->
+    <div>
+
+        <!-- Who We Are -->
+        <section>
+            <h2>Who We Are</h2>
+            <p>
+                Vision Institute is a professional organization delivering
+                high-quality education, training, and skill-based learning
+                to students and working professionals.
+            </p>
+        </section>
+
+        <!-- Our Services -->
+        <section>
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">Professional Training</div>
+                <div class="service">Skill Development</div>
+                <div class="service">Workshops & Seminars</div>
+                <div class="service">Career Guidance</div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section>
+            <h2>Why Choose Us</h2>
+            <div class="badges">
+                <div class="badge">Experienced Faculty</div>
+                <div class="badge">Industry Oriented</div>
+                <div class="badge">Affordable Fees</div>
+                <div class="badge">Practical Learning</div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right">
+
+        <!-- Mission & Vision -->
+        <section class="highlight">
+            <h2><strong>Mission & Vision</strong></h2>
+            <p>
+                <strong>Mission:</strong> To provide practical, affordable,
+                and career-focused education.
+            </p>
+            <p>
+                <strong>Vision:</strong> To be a trusted institute producing
+                industry-ready professionals.
+            </p>
+        </section>
+
+        <!-- Location -->
+        <section>
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps?q=Pune&output=embed"></iframe>
+        </section>
+
+    </div>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    © 2025 ABC Institute. All Rights Reserved.
+</footer>
+
+</body>
+</html>

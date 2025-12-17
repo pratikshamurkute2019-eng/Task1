@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+
+<style>
+/* ===== COLOR SYSTEM (MATCHES ABOUT PAGE) ===== */
+:root{
+    --primary:#4f46e5;
+    --secondary:#06b6d4;
+    --dark:#111827;
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
+}
+
+/* ===== RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+html, body{
+    height:100%;
+}
+
+body{
+    background:linear-gradient(180deg,#eef2ff,#f8fafc);
+    display:flex;
+    flex-direction:column;
+    color:var(--text);
+}
+
+/* ===== HEADER / NAVBAR ===== */
+header{
+    background:rgba(255,255,255,0.85);
+    backdrop-filter:blur(10px);
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+}
+
+nav{
+    max-width:1200px;
+    margin:auto;
+    padding:16px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:700;
+    background:linear-gradient(90deg,var(--primary),var(--secondary));
+    -webkit-background-clip:text;
+    color:transparent;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:24px;
+    font-weight:500;
+    color:var(--text);
+}
+
+nav a:hover{
+    color:var(--primary);
+}
+
+/* ===== MAIN ===== */
+main{
+    flex:1;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 30px;
+    display:grid;
+    grid-template-columns:1.4fr 1fr;
+    gap:30px;
+}
+
+/* ===== CARD ===== */
+section{
+    background:var(--card);
+    padding:28px;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.1);
+}
+
+section h2{
+    margin-bottom:12px;
+    color:var(--primary);
+}
+
+/* ===== FORM ===== */
+form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:16px;
+}
+
+form .full{
+    grid-column:1 / -1;
+}
+
+label{
+    font-size:14px;
+    color:var(--muted);
+    margin-bottom:4px;
+    display:block;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    border-radius:10px;
+    border:1px solid #d1d5db;
+    font-size:14px;
+}
+
+textarea{
+    resize:none;
+}
+
+button{
+    grid-column:1 / -1;
+    margin-top:10px;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    font-size:15px;
+    font-weight:600;
+    color:white;
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+/* ===== CONTACT INFO ===== */
+.info{
+    background:linear-gradient(135deg,var(--primary),#8b5cf6);
+    color:white;
+}
+
+.info p{
+    margin-bottom:12px;
+    font-size:15px;
+}
+.info h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+
+/* ===== FOOTER ===== */
+footer{
+    background:linear-gradient(90deg,var(--dark),#020617);
+    color:#cbd5e1;
+    text-align:center;
+    padding:14px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <nav>
+        <div class="logo">Vision Institute</div>
+        <div>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main>
+
+    <!-- CONTACT FORM -->
+    <section>
+        <h2>Contact Us</h2>
+
+        <form>
+            <div>
+                <label>First Name</label>
+                <input type="text" placeholder="Enter first name">
+            </div>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter last name">
+            </div>
+
+            <div class="full">
+                <label>Email</label>
+                <input type="email" placeholder="Enter email address">
+            </div>
+
+            <div class="full">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter phone number">
+            </div>
+
+            <div class="full">
+                <label>How can we help you?</label>
+                <textarea rows="4" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- CONTACT INFO -->
+    <section class="info">
+        <h2>Get in Touch</h2>
+        <p>📍 Pune, India</p>
+        <p>📞 +91 98765 43210</p>
+        <p>✉️ info@visioninstitute.com</p>
+        <p>
+            We are happy to answer your questions and help you
+            choose the right course or service.
+        </p>
+    </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    © 2025 Vision Institute. All Rights Reserved.
+</footer>
+
+</body>
+</html>

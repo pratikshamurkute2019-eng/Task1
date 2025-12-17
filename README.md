@@ -59,3 +59,33 @@ Create 4 form pages + 1 preview page containing the following sections:
 - Preview page to review all inputs
 - Styled using only HTML and CSS (no JavaScript or backend)
 
+## Task 5 : About & Contact Pages
+
+## Project Overview
+This project includes two responsive web pages created with HTML and CSS for a fictional organization, Vision Institute. The pages demonstrate clean layout, navigation, forms, and basic responsive design.
+
+Pages
+## 1. About Us (about.html)
+Who We Are – Introduction about the institute
+Our Services – Professional training, workshops, and career guidance
+Why Choose Us – Highlights like experienced faculty, practical learning
+Mission & Vision – Displayed in a highlighted card
+Our Location – Embedded Google Map
+## 2. Contact Us (contactus.html)
+Contact Form – First Name, Last Name, Email, Phone, Message
+Contact Info Section – Address, phone, email, brief message
+
+## Common Features
+Responsive Navbar: Home | About | Contact
+Reusable Footer on both pages
+Consistent color theme, fonts, and card-based layout
+Styled using CSS gradients, shadows, and flex/grid layouts.
+
+## How to Run
+Save about.html and contactus.html in the same folder.
+Open either page in a web browser.
+Use the navbar to navigate between pages.
+
+## Technologies Used
+HTML5
+CSS3

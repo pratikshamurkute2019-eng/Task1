@@ -71,6 +71,7 @@ Our Services – Professional training, workshops, and career guidance
 Why Choose Us – Highlights like experienced faculty, practical learning
 Mission & Vision – Displayed in a highlighted card
 Our Location – Embedded Google Map
+
 ## 2. Contact Us (contactus.html)
 Contact Form – First Name, Last Name, Email, Phone, Message
 Contact Info Section – Address, phone, email, brief message
@@ -89,3 +90,29 @@ Use the navbar to navigate between pages.
 ## Technologies Used
 HTML5
 CSS3
+
+## Task 6 : Signup Page with Frontend Validation
+
+This project contains a simple and professional Signup page created using HTML, CSS, and JavaScript.
+
+## Features
+- Mandatory field validation
+- Valid email format check
+- Phone number must be exactly 10 digits
+- Password minimum length validation
+- Password and Confirm Password matching
+- Error messages below each field
+- Success message on valid submission (UI only)
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript (Basic)
+
+## How to Run
+1. Download or copy the `signup_validation.html` file
+2. Open it in any modern web browser
+3. Fill the form and click **Sign Up Button**
+
+## Note
+This project uses only frontend validation and does not include backend or database functionality.

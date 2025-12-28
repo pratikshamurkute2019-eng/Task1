@@ -116,3 +116,78 @@ This project contains a simple and professional Signup page created using HTML, 
 
 ## Note
 This project uses only frontend validation and does not include backend or database functionality.
+
+## Task_7 : JavaScript Learning Notes (Core to Advanced)
+
+## Introduction
+
+This repository contains short and easy-to-understand notes on JavaScript concepts from basic to advanced level.
+It is designed for beginners who want a quick revision and clear understanding of JavaScript used in real-world web development.
+
+## Aim
+
+The aim of this project is to:
+Understand JavaScript fundamentals
+Learn modern ES6+ features
+Practice clean and readable concepts
+Prepare for interviews and frontend development
+Build strong programming logic
+
+## 1) Core JavaScript
+let / const → block scoped variables
+Data Types → primitive & reference
+Truthy / Falsy → values treated as true or false
+Operators → ===, !==, &&, ||, ?:
+Conditionals → if, else, ternary
+
+## 2) Functions
+Function declaration & expression
+Arrow functions → () => {}
+Default parameters → fallback values
+Return values → send output from function
+
+## 3) Objects & Arrays
+Object creation & access → {} , dot / bracket
+Array basics → [], index-based
+Array methods
+map() → transform
+filter() → filter data
+find() → find one item
+reduce() → single output
+some() / every() → boolean result
+
+## 4) Modern JavaScript (ES6+)
+Destructuring → extract values
+Spread (...) → copy / merge
+Rest (...) → collect arguments
+Template literals → ${} syntax
+
+## 5) Modules & Classes
+import / export → share code
+ES6 Classes → object blueprint
+Constructor → auto-run method
+extends / super → inheritance
+this keyword → current object
+
+## 6) Asynchronous JavaScript
+Callbacks → function inside function
+Promises → async handling
+async / await → readable async code
+try...catch → error handling
+
+## 7) Advanced JavaScript Concepts
+Scope → global / function / block
+Closures → access outer scope
+Immutability → avoid direct mutation
+Higher-order functions → functions using functions
+
+## 8) Browser & Runtime
+DOM basics → HTML as JS objects
+Event handling → user interactions
+Event bubbling → child → parent
+LocalStorage / SessionStorage → browser storage
+JSON → parse() & stringify()
+
+## Conclusion
+This repository provides a compact overview of JavaScript concepts from beginner to advanced level.
+It helps learners revise topics quickly, understand modern syntax, and build a strong foundation for frontend or full-stack development.
